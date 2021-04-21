@@ -1,0 +1,25 @@
+<svg width="120" height="60" viewBox="0 0 120 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Group 27">
+<g id="Rectangle 4">
+<rect width="120" height="60" fill="#9B0859"/>
+</g>
+<g id="Vector 2">
+<path d="M 93 26L 63 2L 56 1L 54 4L 49.5 0L 38 4L 33 0L 28 4L 23 0L 19 4L 15 0L 10 4L 4.5 0L 0 30L 18 44L 93 44L 93 26Z" transform="translate(27 16)" fill="#80074D"/>
+</g>
+<g id="Union">
+<path d="M 0 0L 5 0L 5 12L 10 12L 10 0L 15 0L 15 30L 10 30L 10 17L 5 17L 5 30L 0 30L 0 0Z" transform="translate(27 16)" fill="white"/>
+</g>
+<g id="Union_2">
+<path d="M 0 0L 5 0L 5 12L 10 12L 10 0L 15 0L 15 30L 10 30L 10 17L 5 17L 5 30L 0 30L 0 0Z" transform="translate(45 16)" fill="white"/>
+</g>
+<g id="Union_3">
+<path d="M 15 5L 15 0L 0 0L 0 5L 5 5L 5 30L 10 30L 10 5L 15 5Z" transform="translate(62 16)" fill="white"/>
+</g>
+<g id="Union_4">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 0 0L 6 0C 9.86719 0 13 3.13477 13 7L 13 9C 13 11.0176 12.1445 12.8359 10.7812 14.1133C 12.7109 15.3594 14 17.5312 14 20L 14 23C 14 24.584 13.4727 26.0449 12.5859 27.2188C 11.3086 28.9082 9.28125 30 7 30L 0 30L 0 0ZM 4 26L 7 26C 8.65625 26 10 24.6562 10 23L 10 20C 10 18.3438 8.65625 17 7 17L 4 17L 4 26ZM 4 12L 4 4L 6 4C 7.05859 4 7.98828 4.54883 8.52344 5.37891C 8.82422 5.8457 9 6.40234 9 7L 9 9C 9 10.6562 7.65625 12 6 12L 4 12Z" transform="translate(79 16)" fill="white"/>
+</g>
+</g>
+</g>
+</svg>
+

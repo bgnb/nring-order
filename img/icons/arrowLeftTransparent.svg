@@ -1,0 +1,18 @@
+<svg width="18" height="27" viewBox="0 0 18 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle 5.6</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(41417 22192)">
+<g id="Rectangle 5.6">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 -41399 -22165)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 -41399 -22165)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 18 13.5L 0 27L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 1.2 -1.6L -2 -4L -2 0L 0 0ZM 18 13.5L 19.2 15.1L 21.3333 13.5L 19.2 11.9L 18 13.5ZM 0 27L -2 27L -2 31L 1.2 28.6L 0 27ZM -1.2 1.6L 16.8 15.1L 19.2 11.9L 1.2 -1.6L -1.2 1.6ZM 2 27L 2 0L -2 0L -2 27L 2 27ZM 16.8 11.9L -1.2 25.4L 1.2 28.6L 19.2 15.1L 16.8 11.9Z"/>
+</defs>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="20" height="38" viewBox="0 0 20 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>phone</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(44663 19025)">
+<g id="phone">
+<g id="Rectangle 2.1">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-44662.8 -19025)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-44662.8 -19025)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="translate(-44662.3 -18997)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_stroke" transform="translate(-44653.9 -18993)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 2C 0 0.895428 0.895431 0 2 0L 17.801 0C 18.9056 0 19.801 0.895431 19.801 2L 19.801 35.0187C 19.801 36.1233 18.9056 37.0187 17.801 37.0187L 2 37.0187C 0.895428 37.0187 0 36.1233 0 35.0187L 0 2Z"/>
+<path id="path1_stroke_2x" d="M 2 2L 17.801 2L 17.801 -2L 2 -2L 2 2ZM 17.801 2L 17.801 35.0187L 21.801 35.0187L 21.801 2L 17.801 2ZM 17.801 35.0187L 2 35.0187L 2 39.0187L 17.801 39.0187L 17.801 35.0187ZM 2 35.0187L 2 2L -2 2L -2 35.0187L 2 35.0187ZM 2 35.0187L 2 35.0187L -2 35.0187C -2 37.2279 -0.209145 39.0187 2 39.0187L 2 35.0187ZM 17.801 35.0187L 17.801 35.0187L 17.801 39.0187C 20.0101 39.0187 21.801 37.2279 21.801 35.0187L 17.801 35.0187ZM 17.801 2L 17.801 2L 21.801 2C 21.801 -0.209136 20.0101 -2 17.801 -2L 17.801 2ZM 2 -2C -0.209135 -2 -2 -0.209146 -2 2L 2 2L 2 2L 2 -2Z"/>
+<path id="path2_stroke" d="M 0 1L 18.8109 1L 18.8109 -1L 0 -1L 0 1Z"/>
+<path id="path3_stroke" d="M 0 1L 1.9801 1L 1.9801 -1L 0 -1L 0 1Z"/>
+</defs>
+</svg>

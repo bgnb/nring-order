@@ -1,0 +1,50 @@
+<svg width="20" height="22" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(44808 24166)">
+<g id="Group">
+<g id="Rectangle 5">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-44808 -24164)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-44808 -24164)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Rectangle 6">
+<use xlink:href="#path2_fill" transform="translate(-44808 -24164)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7">
+<use xlink:href="#path3_fill" transform="translate(-44805 -24166)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7.2">
+<use xlink:href="#path4_fill" transform="translate(-44805 -24157)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7.3">
+<use xlink:href="#path4_fill" transform="translate(-44800 -24157)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7.4">
+<use xlink:href="#path4_fill" transform="translate(-44795 -24157)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7.5">
+<use xlink:href="#path4_fill" transform="translate(-44805 -24151)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7.6">
+<use xlink:href="#path4_fill" transform="translate(-44800 -24151)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7.7">
+<use xlink:href="#path4_fill" transform="translate(-44795 -24151)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 7.1">
+<use xlink:href="#path3_fill" transform="translate(-44793 -24166)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 20 0L 20 20L 0 20L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 20 0L 21 0L 21 -1L 20 -1L 20 0ZM 20 20L 20 21L 21 21L 21 20L 20 20ZM 0 20L -1 20L -1 21L 0 21L 0 20ZM 0 1L 20 1L 20 -1L 0 -1L 0 1ZM 19 0L 19 20L 21 20L 21 0L 19 0ZM 20 19L 0 19L 0 21L 20 21L 20 19ZM 1 20L 1 0L -1 0L -1 20L 1 20Z"/>
+<path id="path2_fill" d="M 0 0L 20 0L 20 5L 0 5L 0 0Z"/>
+<path id="path3_fill" d="M 0 0L 2 0L 2 4L 0 4L 0 0Z"/>
+<path id="path4_fill" d="M 0 0L 4 0L 4 3L 0 3L 0 0Z"/>
+</defs>
+</svg>

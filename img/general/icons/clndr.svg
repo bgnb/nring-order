@@ -1,0 +1,33 @@
+<svg width="16" height="13" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>calendar.</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(42031 16969)">
+<g id="calendar.">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 -42015 -16969)"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(-42028 -16964)"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(-42024 -16964)"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(-42020 -16964)"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(-42028 -16961)"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(-42024 -16961)"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(-42020 -16961)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 3.90698 0L 3.90698 1.42581L 0 1.42581L 0 13L 16 13L 16 1.42581L 12.093 1.42581L 12.093 0L 10.3488 0L 10.3488 1.42581L 5.65116 1.42581L 5.65116 0L 3.90698 0ZM 10.3488 2.80981L 10.3488 3.77433L 12.093 3.77433L 12.093 2.80981L 14.4658 2.80981L 14.4658 11.616L 1.53419 11.616L 1.53419 2.80981L 3.90698 2.80981L 3.90698 3.77433L 5.65116 3.77433L 5.65116 2.80981L 10.3488 2.80981Z"/>
+<path id="path1_fill" d="M 0 0L 2 0L 2 2L 0 2L 0 0Z"/>
+</defs>
+</svg>

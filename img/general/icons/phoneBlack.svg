@@ -1,0 +1,16 @@
+<svg width="13" height="25" viewBox="0 0 13 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>phone</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(62573 23963)">
+<g id="phone">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(-62573 -23963)"/>
+<use xlink:href="#path1_fill" transform="translate(-62573 -23963)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 5.84987 22.1233L 7.15013 22.1233L 7.15013 20.7832L 5.84987 20.7832L 5.84987 22.1233Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0.528309 0.266971C 0.207733 0.510386 0 0.900373 0 1.34009L 0 23.4647C 0 23.7944 0.115407 24.0954 0.310318 24.3297C 0.551391 24.6202 0.910436 24.8047 1.31308 24.8047L 11.6869 24.8047C 12.4127 24.8047 13 24.2041 13 23.4647L 13 1.34009C 13 0.599376 12.4127 0 11.6869 0L 1.31308 0C 1.01815 0 0.746301 0.0994598 0.528309 0.266971ZM 11.6869 1.34009L 1.31308 1.34009L 1.31308 18.1017L 11.6869 18.1017L 11.6869 1.34009ZM 1.31308 23.4647L 1.31308 19.4418L 11.6869 19.4418L 11.6869 23.4647L 1.31308 23.4647Z"/>
+</defs>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="19" height="20" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 19</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(44771 19917)">
+<g id="Group 19">
+<g id="Rectangle 8">
+<use xlink:href="#path0_fill" transform="translate(-44771 -19917)" fill="#919191"/>
+</g>
+<g id="A">
+<use xlink:href="#path1_fill" transform="matrix(0.999999 -0.00110825 0.00110932 0.999999 -44765 -19912)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 19 0L 19 19L 0 19L 0 0Z"/>
+<path id="path1_fill" d="M 2.76 0.9L 3.98 0.9L 6.68 8L 5.26 8L 4.6 6.23L 2.12 6.23L 1.47 8L 0.05 8L 2.76 0.9ZM 4.35 5.26L 3.37 2.47L 2.35 5.26L 4.35 5.26Z"/>
+</defs>
+</svg>

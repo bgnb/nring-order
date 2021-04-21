@@ -1,0 +1,24 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(43454 17982)">
+<g id="Group">
+<g id="Rectangle 5.1">
+<use xlink:href="#path0_fill" transform="translate(-43434 -17967)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-43454 -17982)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-43454 -17982)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 12 9L 0 18L 0 0Z"/>
+<path id="path1_fill" d="M 48 24C 48 37.2548 37.2548 48 24 48C 10.7452 48 0 37.2548 0 24C 0 10.7452 10.7452 0 24 0C 37.2548 0 48 10.7452 48 24Z"/>
+<path id="path2_stroke_2x" d="M 46 24C 46 36.1503 36.1503 46 24 46L 24 50C 38.3594 50 50 38.3594 50 24L 46 24ZM 24 46C 11.8497 46 2 36.1503 2 24L -2 24C -2 38.3594 9.6406 50 24 50L 24 46ZM 2 24C 2 11.8497 11.8497 2 24 2L 24 -2C 9.6406 -2 -2 9.6406 -2 24L 2 24ZM 24 2C 36.1503 2 46 11.8497 46 24L 50 24C 50 9.6406 38.3594 -2 24 -2L 24 2Z"/>
+</defs>
+</svg>

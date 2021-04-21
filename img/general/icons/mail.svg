@@ -1,0 +1,24 @@
+<svg width="20" height="15" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>mail</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(44663 19062)">
+<g id="mail">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(-44661.8 -19060.3)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-44662.8 -19061.3)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-44662.8 -19061.3)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 8.91045 7.00355L 8.29249 7.78976L 8.91045 8.27547L 9.52841 7.78976L 8.91045 7.00355ZM -0.617957 0.786212L 8.29249 7.78976L 9.52841 6.21733L 0.617957 -0.786212L -0.617957 0.786212ZM 9.52841 7.78976L 18.4389 0.786212L 17.2029 -0.786212L 8.29249 6.21733L 9.52841 7.78976Z"/>
+<path id="path1_fill" d="M 0 0L 19.801 0L 19.801 14.0071L 0 14.0071L 0 0Z"/>
+<path id="path2_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 19.801 0L 21.801 0L 21.801 -2L 19.801 -2L 19.801 0ZM 19.801 14.0071L 19.801 16.0071L 21.801 16.0071L 21.801 14.0071L 19.801 14.0071ZM 0 14.0071L -2 14.0071L -2 16.0071L 0 16.0071L 0 14.0071ZM 0 2L 19.801 2L 19.801 -2L 0 -2L 0 2ZM 17.801 0L 17.801 14.0071L 21.801 14.0071L 21.801 0L 17.801 0ZM 19.801 12.0071L 0 12.0071L 0 16.0071L 19.801 16.0071L 19.801 12.0071ZM 2 14.0071L 2 0L -2 0L -2 14.0071L 2 14.0071Z"/>
+</defs>
+</svg>

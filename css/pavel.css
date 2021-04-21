@@ -1,0 +1,42 @@
+#mse2_mfilter .btn_more {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 5px 0;
+    width: 240px !important;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #DD0500;
+    color: #ffffff;
+    transition: .7s;
+    margin: -25px auto 0 auto !important;
+}
+
+#mse2_mfilter .btn_more:hover {
+    opacity: .8;
+}
+h4.ui-pnotify-title {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+div#cams .h-popup__title h3 {
+    color: #fff;
+}
+
+h4.popup-camblock__title {
+    text-transform:  uppercase;
+}
+
+.h-popup__camblock {
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 474px) {
+    #mse2_mfilter .btn_more {
+            height: 50px;
+    }
+        
+}
