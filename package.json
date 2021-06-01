@@ -1,0 +1,22 @@
+{
+  "name": "nring_email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgnb/nring-order.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgnb/nring-order/issues"
+  },
+  "homepage": "https://github.com/bgnb/nring-order#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
