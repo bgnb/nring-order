@@ -1,0 +1,230 @@
+/* CLIENT-SPECIFIC STYLES */
+#outlook a {
+  padding: 0;
+} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody {
+  width: 100%;
+}
+.ExternalClass {
+  width: 100%;
+} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+} /* Force Hotmail to display normal line spacing */
+body, table, td, p, a, li, blockquote {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+} /* Remove spacing between tables in Outlook 2007 and up */
+img {
+  -ms-interpolation-mode: bicubic;
+} /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* RESET STYLES */
+body, .body-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse !important;
+}
+a:link,
+a:visited,
+a .yshortcuts,
+a span {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/* ========== Page Styles ========== */
+
+body, .body-wrapper {
+  background-color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 680px;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 60%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.header__logo img {
+  width: 100%;
+}
+
+.main-wrapper {
+  padding-top: 60px;
+  background-image: url("http://nring.bagnob.ru/img/email/header-image.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.main {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 14px;
+  color: #333333;
+}
+
+.main-header {
+  padding-top: 8%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+}
+h1 {
+  color: #333333 !important;
+  display: block;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-left: 0;
+  text-align: left;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: normal;
+}
+h1 span {
+  color: #dd0500 !important;
+}
+
+.main-content {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+}
+
+.order-text,
+.services-list,
+.customer-info {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.services-list td,
+.customer-info td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.table-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table-header div {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dd0500;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+.order-total {
+  padding-top: 28px;
+  padding-bottom: 14px;
+}
+.order-total td {
+  padding-top: 10px;
+  border-top: 2px solid #e0e0e0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.order-actions {
+  padding-top: 28px;
+  padding-bottom: 14px;
+}
+.order-actions a {
+  display: inline-block;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 64px;
+  padding-right: 64px;
+  background-color: #dd0500;
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+}
+
+.main-footer {
+  background-color: #ffffff;
+}
+.main-footer-social {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #c4c4c4;
+  color: #ffffff;
+}
+.main-footer-social a {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.main-footer-social a img {
+  width: 100%;
+}
+.main-footer-links {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  body, table, td, p, a, li, blockquote {
+    -webkit-text-size-adjust: none !important;
+  } /* Prevent Webkit platforms from changing default text sizes */
+  body {
+    width: 100% !important;
+    min-width: 100% !important;
+  } /* Prevent iOS Mail from adding padding to the body */
+
+  .header-wrapper,
+  .main-wrapper {
+    /*padding: 0 !important;*/
+  }
+  .container {
+    max-width: 680px !important;
+    /*width: 100% !important;*/
+  }
+  .main-content {
+    font-size: 14px !important;
+    line-height: 125% !important;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .table-header {
+    font-size: 12px;
+  }
+
+}
+

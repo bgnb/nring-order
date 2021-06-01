@@ -168,7 +168,6 @@
     console.log('radio changed 2')
   });
 
-
   //показ панели доставки + скрытие инпутов желаемого времени (и наоборот)
   $('.order-gift__toggle .check__input:checkbox').on('change', function() {
     if($('.order-gift__toggle').attr('data-active') == 'true') {
@@ -183,7 +182,6 @@
     calcTotal();
   });
 
-  //TODO скрывать инфу о доставке для позиций не предусматривающих доставку
   $('.order-delivery__nav').on('click', 'a:not(.order-delivery__link--active)', function(event) {
     event.preventDefault();
     $(this)

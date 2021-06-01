@@ -18,5 +18,8 @@
   "homepage": "https://github.com/bgnb/nring-order#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-email-builder": "^3.0.0"
   }
 }
