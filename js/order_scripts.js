@@ -10,10 +10,12 @@
       let orderItem = $(this);
       orderItem.find('.order-item__text').text(orderItem.attr('data-text'));
       orderItem.find('.order-item__price')
+        .not('input')
         .text(orderItem.attr('data-price') == 0
           ? 'Бесплатно'
           : addThousandsSeparator(orderItem.attr('data-price')) + '\u00A0₽'
         );
+
       let orderItemCheck = orderItem.find('.order-item__check input');
       orderItemCheck
         .attr('name', orderItem.attr('data-name'))
@@ -21,6 +23,12 @@
       orderItem.attr('data-active') == 'true'
         ? orderItemCheck.attr('checked', 'checked')
         : orderItemCheck.removeAttr('checked');
+
+      //вариант для кастомной цены
+      orderItem.find('input.order-item__price')
+        .attr('name', orderItem.attr('data-name') + 'Price')
+        .val(orderItem.attr('data-price'));
+
       //установка имён скрытых инпутов
       orderItem.find('.order-item__text-hidden').attr('name', orderItem.attr('data-name') + 'Text');
       orderItem.find('.order-item__description-hidden').attr('name', orderItem.attr('data-name') + 'Description');
@@ -56,13 +64,24 @@
     let total = 0;
     console.log('recalc');
 
+    //кастомная цена
+    $('.custom-cert').each(function () {
+      let customCert = $(this);
+      //установка значений скрытых инпутов
+      customCert.find('.order-item__text-hidden').val(customCert.attr('data-text'));
+      //цена выбранной услуги
+      total += parseInt(customCert.attr('data-price'));
+    });
+
     //выбранная услуга
-    let serviceCurrent = $('.current-service');
-    //установка значений скрытых инпутов
-    serviceCurrent.find('.order-item__text-hidden').val(serviceCurrent.attr('data-text'));
-    serviceCurrent.find('.order-item__price-hidden').val(serviceCurrent.attr('data-price'));
-    //цена выбранной услуги
-    total += parseInt(serviceCurrent.attr('data-price'));
+    $('.current-service').each(function () {
+      let serviceCurrent = $(this);
+      //установка значений скрытых инпутов
+      serviceCurrent.find('.order-item__text-hidden').val(serviceCurrent.attr('data-text'));
+      serviceCurrent.find('.order-item__price-hidden').val(serviceCurrent.attr('data-price'));
+      //цена выбранной услуги
+      total += parseInt(serviceCurrent.attr('data-price'));
+    });
 
     //плюс цены отмеченных доп.услуг
     $('.order-extras .order-item[data-active = true]').each(function () {
@@ -83,6 +102,7 @@
         $('.order-delivery__price-hidden').val(deliveryItem.attr('data-price'));
       });
     }
+
     $('.order-total__price')
       .attr('data-price', total)
       .text(addThousandsSeparator(total) + '\u00A0₽');
@@ -127,6 +147,13 @@
   function addThousandsSeparator (numberText) {
     return parseInt(numberText).toLocaleString('ru-RU');
   };
+
+  $('.custom-cert .custom-cert__price').on('change', function () {
+    $(this).closest('.order-item')
+      .attr('data-price', $(this).val() ? $(this).val() : 0 );
+    calcTotal();
+  });
+  $('.custom-cert .custom-cert__price').on('keyup', function () { $(this).trigger('change'); });
 
   $('.service-item').on('click', function () {
     let serviceActive = $(this);

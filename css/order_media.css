@@ -92,6 +92,10 @@
   .warning-order__actions > button {
   }
 
+  .custom-cert__price-wrap {
+    width: 33%;
+  }
+
 }
 
 @media only screen and (max-width: 474px) {
@@ -127,7 +131,6 @@
     width: 22%;
   }
 
-
   .checkout-item__text {
     width: 74%;
   }
@@ -138,7 +141,6 @@
     width: 100%;
   }
 
-
   .order-actions > button,
   .checkout-actions > button {
     width: 100%;
@@ -146,6 +148,17 @@
 
   .warning-order__actions > button {
     width: 100%;
+  }
+
+  .custom-cert {
+    flex-wrap: wrap;
+  }
+  .custom-cert__text {
+    width: 100%;
+    margin-bottom: .78rem;
+  }
+  .custom-cert__price-wrap {
+    width: 50%;
   }
 }
 
@@ -170,6 +183,8 @@
     /*width: 16%;*/
   }
 
-
+  .custom-cert__price-wrap {
+    width: 60%;
+  }
 
 }

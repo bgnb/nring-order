@@ -368,7 +368,6 @@ a.order-delivery__link--active {
   position: relative;
   padding-left: 2.4em;
   user-select: none;
-  cursor: pointer;
 }
 .check .check__input,
 .radio .check__input {
@@ -387,12 +386,18 @@ a.order-delivery__link--active {
   width: 1em;
   height: 1em;
   margin-left: -2.4em;
+  cursor: pointer;
 }
 .check .check__box { background: center / contain url("../img/icons/inputs/check--unchecked.svg") no-repeat; }
 .radio .check__box { background: center / contain url("../img/icons/inputs/radio--unchecked.svg") no-repeat; }
 .check .check__input:checked + .check__box { background-image: url("../img/icons/inputs/check--checked.svg"); }
+.check .check__input:checked:disabled + .check__box { cursor: default; background-image: url("../img/icons/inputs/check--checked--disabled.svg"); }
 .radio .check__input:checked + .check__box { background-image: url("../img/icons/inputs/radio--checked.svg"); }
-.check__box + span {}
+
+.check .check__input + .check__box + span,
+.radio .check__input + .check__box + span { cursor: pointer; }
+.check .check__input:disabled + .check__box + span,
+.radio .check__input:disabled + .check__box + span { cursor: default; }
 
 /*дисклэймер*/
 .order-disclaimer,
@@ -540,3 +545,54 @@ a.order-delivery__link--active {
 
 
 
+.custom-cert {
+  align-items: center;
+  padding: 0;
+  font-size: 2em;
+  font-weight: 900;
+  border-bottom: 2px solid #dd0500;
+}
+.custom-cert__text {
+  width: 60%;
+  margin-bottom: .78rem;
+}
+.custom-cert__price-wrap {
+  display: flex;
+  width: 27%;
+  margin-bottom: .78rem;
+}
+.custom-cert input[type='number'] {
+  width: 100%;
+  padding: 0 .78rem 0 .78rem;
+  color: #dd0500;
+  text-align: left;
+  border: 1px solid #b3b3b3;
+  border-radius: 0;
+  font-size: 2rem;
+  -moz-appearance: textfield;
+}
+.custom-cert input[type='number']::placeholder {
+  color: #b3b3b3;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.custom-cert input[type='number']::-webkit-inner-spin-button,
+.custom-cert input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.custom-cert__unit {
+  color: #dd0500;
+  font-size: 2rem;
+}
+/*на странице универсального сертификата скрываем галку про сертификат*/
+.order-form--custom .order-gift__toggle {
+  display: none;
+}
+.order-form--custom .order-delivery__list {
+  margin-top: 0;
+  border-top: none;
+}
