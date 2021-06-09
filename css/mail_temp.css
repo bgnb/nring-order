@@ -178,7 +178,7 @@ h1 span {
 .order-actions a {
   display: inline-block;
   border: 18px solid #dd0500;
-  padding: 0 3em;
+  /*padding: 0 3em;*/
   background-color: #dd0500;
   color: #ffffff;
   text-decoration: none;
